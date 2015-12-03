@@ -7,7 +7,8 @@ angular.module('ideation.main', [
 	, 'textAngular'
   	, 'ideation.auth'
   	, 'ideation.dashboard'
-  	, 'ideation.campaign'
+  	, 'ideation.campaign',
+  	  'ui.grid.pagination'
   	//, 'ideation.idea'
 
   //'ideation.home',

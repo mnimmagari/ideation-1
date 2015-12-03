@@ -15,7 +15,7 @@ angular.module('ideation.campaign')
 
       .when('/campaign/:id/show', {
         templateUrl: '/app/campaign/campaign-view-show.html',
-        controller: 'campaignControllerDetail'
+        controller: 'campaignControllerMain'
       })
 
       .when('/campaign/:id/edit', {
